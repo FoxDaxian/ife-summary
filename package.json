@@ -1,0 +1,11 @@
+{
+  "name": "ife-summary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/a13821190779/ife-summary.git",
+  "author": "a13821190779 <945039036@qq.com>",
+  "license": "MIT",
+  "scripts": {
+	  "css": "parcel src/css/task1/index.html"
+  }
+}

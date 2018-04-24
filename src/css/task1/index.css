@@ -1,0 +1,31 @@
+.wrap {
+}
+.text {
+    display: inline-block;
+    transition: 0.2s;
+    position: relative;
+    padding-bottom: 5px;
+}
+.text:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 50%;
+    bottom: 0;
+    background-color: #5c7dce;
+    transition: 0.2s;
+}
+.textAni {
+    color: #5c7dce;
+    text-shadow: 0 0 1px #fff,
+        0 0 2px #fff 0 0 3px #fff 0 0 4px #fff 0 0 5px #5c7dce 0 0 6px #5c7dce;
+}
+.textAni:after {
+	width: 100%;
+    left: 50%;
+	margin-left: -50%;
+}
+button {
+}
