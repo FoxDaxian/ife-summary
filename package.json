@@ -6,6 +6,6 @@
     "author": "a13821190779 <945039036@qq.com>",
     "license": "MIT",
     "scripts": {
-        "css": "parcel src/css/task6/index.html"
+        "css": "parcel src/css/task7/index.html"
     }
 }
